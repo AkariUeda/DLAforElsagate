@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/akari/Documents/codigo/src/frame_extractor/frame_extractor.cpp
+dirent.h
+-
+fstream
+-
+sys/stat.h
+-
+sys/types.h
+-
+boost/thread.hpp
+-
+boost/algorithm/string.hpp
+-
+opencv2/opencv.hpp
+-
+

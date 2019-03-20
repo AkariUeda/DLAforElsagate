@@ -1,0 +1,3 @@
+/home/akari/Documents/codigo/src/frame_extractor/build/CMakeFiles/rebuild_cache.dir
+/home/akari/Documents/codigo/src/frame_extractor/build/CMakeFiles/edit_cache.dir
+/home/akari/Documents/codigo/src/frame_extractor/build/CMakeFiles/frame_extractor.dir
