@@ -1,9 +1,8 @@
 
 # Summary
 * [ Database ](#database)
-* [ Software Requirements ](#reqs)
-* [ Data Preprocessing ](#preproc)
-* [ Frame Extraction ](#frames)
+* [ Methodology Pipeline ](#reqs)
+* [ Data Preprocessing ](https://github.com/AkariUeda/DLAforElsagate/tree/master/data_preprocessing)
 
 # How to contribute with the project
 
@@ -32,34 +31,20 @@ In this link, you will find two directories with the training and validation set
 * The extracted and processed frames and motion vectors. The preprocessing steps are explained in the next section.
 * The two folds in the training set used in the experiments.
 
-## About Data Annotation
+### About Data Annotation
 Please note that we did not perform a mannual data annotation. Videos downloaded from official channels (e.g., Disney Channel, Cartoon Network) were considered safe and those downloaded from channels considered Elsagate in the [r/Elsagate subreddit](https://www.reddit.com/r/ElsaGate/comments/6o6baf/what_is_elsagate/) were labeled as Elsagate.
 
 Thus, we are aware that we have some mistakes in the video labeling, mainly in the Elsagate class.  
 
 
-<a name="reqs"></a>
-# Software Requirements
-
-Further explanations on when to use these library or other setup speficiations will be detailed on the next sections.
-
-* Boost
-* Caffe
-* FFMPEG (Version used: 2.7.2)
-* LIBSVM (Version used: 3.18) 
-* OpenCV (Version used: 2.4.10)
-
 # Methodology Pipeline
 
-1. **Data Preprocessing**: Extract/Generate low-level data (static and/or motion)
+1. [**Data Preprocessing**](https://github.com/AkariUeda/DLAforElsagate/tree/master/data_preprocessing): Extract/Generate low-level data (static and/or motion)
 2. Use a Deep Learning Architecture (DLA) model to extract the features from the low-level data
 3. Pool the features into a single global  descriptor of the video
 4. Predict the class of the video through frames and motion vectors separatedly using SVM
 5. Fusion the frames and motion vectors scores to get a final classification
 
 
-
-___
-# Feature Extraction
 
 
