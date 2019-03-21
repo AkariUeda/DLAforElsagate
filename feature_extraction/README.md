@@ -2,7 +2,7 @@
 
 ## Software Requirements
 
-* **Caffe**: For experiments with [GoogLeNet](https://arxiv.org/abs/1409.4842) and SqueezeNet, please install caffe.
+* **Caffe**: For experiments with [GoogLeNet](https://arxiv.org/abs/1409.4842) and SqueezeNet, please install [Caffe](http://caffe.berkeleyvision.org/).
 * **Keras**: For experiments with MobileNetV2 and NASNet, please install Keras with TensorFlow backend.
 
 ## GoogLeNet
