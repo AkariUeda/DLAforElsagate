@@ -29,7 +29,6 @@ make
 ### 2. Extract frames
 
 The following command extracts raw frames from the videos at a 1 frame per second rate.
-Extract raw frames from the videos.
 
 
 ```

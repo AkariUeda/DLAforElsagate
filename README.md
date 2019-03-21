@@ -39,6 +39,8 @@ Thus, we are aware that we have some mistakes in the video labeling, mainly in t
 
 # Methodology Pipeline
 
+Access specific instructions for each step of the pipeline through the links below:
+
 1. [**Data Preprocessing**](https://github.com/AkariUeda/DLAforElsagate/tree/master/data_preprocessing): Extract/Generate low-level data (static and/or motion)
 2. Use a Deep Learning Architecture (DLA) model to extract the features from the low-level data
 3. Pool the features into a single global  descriptor of the video
