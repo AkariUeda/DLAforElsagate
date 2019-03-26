@@ -28,7 +28,8 @@ Also, our work was largely based on Mauricio Perez work: [Video pornography dete
 * E. Bollis is funded by CAPES. 
 
 * S. Avila is partially funded by Google Research Awards for Latin America 2018, FAPESP (\#2017/16246-0) and FAEPEX (\#3125/17).
-RECOD Lab. is partially supported by diverse projects and grants from FAPESP, CNPq, and CAPES. 
+
+* RECOD Lab. is partially supported by diverse projects and grants from FAPESP, CNPq, and CAPES. 
 
 * We gratefully acknowledge the support of NVIDIA Corporation with the donation of the Titan Xp GPUs used for this research.
 
