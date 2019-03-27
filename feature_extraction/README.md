@@ -5,8 +5,6 @@
 
 For experiments with [GoogLeNet](https://arxiv.org/abs/1409.4842) and SqueezeNet, please install [Caffe](http://caffe.berkeleyvision.org/).
 
-Caffe framework contains a replication of this architecture, which was employed in this paper. Therefore, for feature extraction, the reader can use Caffe framework with our deploy architecture and one of the CNN pretrained models we provide here.
-
 For users not familiar with Caffe, we provide a tool for feature extraction: extract_features.py. This tool extract the features directly from the image files, and store the features in separate files for each image contained in the input list. Example of usage: 
 ```
 src/extract_features.py -i extracted_frames/ -l frames.list -o descriptions_dir/ -p caffe/deploy.prototxt -m caffe/model.caffemodel -ms 100 -a caffe/img_mean.binaryproto -ol layer_name -is 224x224 -g -gi 0
@@ -29,3 +27,7 @@ src/extract_features.py -i extracted_frames/ -l frames.list -o descriptions_dir/
 ## Keras (NASNet and MobileNetV2)
 
 For experiments with MobileNetV2 and NASNet, please install [Keras with TensorFlow backend](https://keras.io/).
+
+We developed a python script to run each of our experiments. We explain their usability below:
+
+
