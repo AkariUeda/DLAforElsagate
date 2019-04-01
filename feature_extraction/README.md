@@ -1,8 +1,5 @@
+
 # Feature Extraction
-
-## Models
-
-Access our [models and setup section](https://github.com/AkariUeda/DLAforElsagate/tree/master/weights) to downloaded the trained weights and other necessary files.
 
 ## Caffe (GoogLeNet and SqueezeNet)
 
