@@ -56,8 +56,9 @@ Thus, we are aware that we have some mistakes in the video labeling, mainly in t
 Access specific instructions for each step of the pipeline through the links below:
 
 1. [**Data Preprocessing**](https://github.com/AkariUeda/DLAforElsagate/tree/master/data_preprocessing): Extract/Generate low-level data (static and/or motion)
-2. [**Models and Feature Extraction**](https://github.com/AkariUeda/DLAforElsagate/tree/master/weights):Use a Deep Learning Architecture (DLA) model to extract the features from the low-level data and pool the features into a single global  descriptor of the video.
-3. [**Classification**](https://github.com/AkariUeda/DLAforElsagate/tree/master/classification): Predict the class of the video through frames and motion vectors separatedly using SVM and fusion the frames and motion vectors scores to get a final classification.
+2. [**Models**](https://github.com/AkariUeda/DLAforElsagate/tree/master/weights): Choose a model to execute a feature extraction or finetuning.
+3. [**Feature Extraction**](https://github.com/AkariUeda/DLAforElsagate/tree/master/feature_extraction):Use a Deep Learning Architecture (DLA) model to extract the features from the low-level data and pool the features into a single global  descriptor of the video.
+4. [**Classification**](https://github.com/AkariUeda/DLAforElsagate/tree/master/classification): Predict the class of the video through frames and motion vectors separatedly using SVM and fusion the frames and motion vectors scores to get a final classification.
 
 
 
