@@ -1,5 +1,8 @@
 # Feature Extraction
 
+## Models
+
+Access our [models and setup section](https://github.com/AkariUeda/DLAforElsagate/tree/master/weights) to downloaded the trained weights and other necessary files.
 
 ## Caffe (GoogLeNet and SqueezeNet)
 
@@ -22,7 +25,7 @@ src/extract_features.py -i extracted_frames/ -l frames.list -o descriptions_dir/
 -gi           GPU id to use
 ```
 
-**Brief Explanation**: This script is going to instantiate the architecture specified in `deploy.prototxt` in caffe. Then it initializes the network with the weights in `model.caffemodel`, feedforward the images in `frames.list` through the network and, for each input image, save the activations of layer `layer_name` in a file in `descriptions_dir`
+**Brief Explanation**: This script is going to instantiate the architecture specified in `deploy.prototxt` in caffe. Then it initializes the network with the weights in `model.caffemodel`, feedforward the images in `frames.list` through the network and, for each input image, save the activations of layer `layer_name` in a file in `descriptions_dir`.
 
 ## Keras (NASNet and MobileNetV2)
 

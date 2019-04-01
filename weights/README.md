@@ -6,20 +6,25 @@ Directories whose name has `"finetuning"` in it have weights trained/generated b
 
 ## GoogLeNet
 
-* `googlenet/googlenet_porn`: weights trained for pornography in natural videos -- provided by Perez et al.
+* `googlenet/transfer_porn`: weights trained for pornography in natural videos -- provided by Perez et al.
 
-* `googlenet/googlenet_imagenet`: weights trained for imagenet -- provided by Szegedy et al.  from the [bvlc googlenet repository](http://dl.caffe.berkeleyvision.org/bvlc_googlenet.caffemodel)
+* `googlenet/transfer_imagenet`: weights trained for imagenet -- provided by Szegedy et al.  from the [bvlc googlenet repository](http://dl.caffe.berkeleyvision.org/bvlc_googlenet.caffemodel)
 
-* `googlenet/googlenet_porn_finetuning`: weights trained by us for elsagate, initialized with the model trained for pornography in natural videos provided by Perez et al.
+<!-- * `googlenet/googlenet_porn_finetuning`: weights trained by us for elsagate, initialized with the model trained for pornography in natural videos provided by Perez et al.
 
-* `googlenet/googlenet_imagenet_finetuning`: weights trained by us for elsagate, initialized with the model trained for imagenet provided by Szegedy et al.  Downloaded from [bvlc googlenet repository](http://dl.caffe.berkeleyvision.org/bvlc_googlenet.caffemodel)
-
+* `googlenet/googlenet_imagenet_finetuning`: weights trained by us for elsagate, initialized with the model trained for imagenet provided by Szegedy et al.  Downloaded from [bvlc googlenet repository](http://dl.caffe.berkeleyvision.org/bvlc_googlenet.caffemodel) -->
 
 ## SqueezeNet
 
+* `squeezenet/transfer_imagenet`: weights and setup files provided by Iandola et al. from DeepScale, available at the [author's github](https://github.com/DeepScale/SqueezeNet).
+
+* `squeezenet/finetuning`: weights and setup files of the model finetuned from Imagenet's model for the purposes of our project.
 
 ## MobileNetV2
+
+* `mobilenetv2`: Since we are using [Keras' implementation of MobileNetV2](https://keras.io/applications/#mobilenetv2), that contains the imagenet model on it, we are only providing the finetuned models and the scripts used to train the models.
 
 
 ## NASNet
 
+* `NASNet`: Since we are using [Keras' implementation of NASNet](https://keras.io/applications/#nasnet), that contains the imagenet model on it, we are only providing the finetuned models and the scripts used to train the models.
