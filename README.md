@@ -31,7 +31,7 @@ Access specific instructions for each step of the pipeline through the links bel
 3. [**Feature Extraction**](https://github.com/AkariUeda/DLAforElsagate/tree/master/feature_extraction):Use a Deep Learning Architecture (DLA) model to extract the features from the low-level data and pool the features into a single global  descriptor of the video.
 4. [**Classification**](https://github.com/AkariUeda/DLAforElsagate/tree/master/classification): Predict the class of the video through frames and motion vectors separatedly using SVM and fusion the frames and motion vectors scores to get a final classification.
 
-# How to cite
+# Citation
 
 If this work/repository was useful for your project, please consider citing our paper.
 
@@ -48,7 +48,6 @@ Also, our work was largely based on Mauricio Perez work: [Video pornography dete
 
 
 # Acknowledgements
-
 
 * A. Ishikawa is funded by PIBIC/CNPq, FAEPEX (\#2555/18) and Movile. 
 * E. Bollis is funded by CAPES. 
