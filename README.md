@@ -6,7 +6,7 @@ Code to reproduce the results for the paper ["Combating the Elsagate phenomenon:
 * [ Data Preprocessing ](https://github.com/AkariUeda/DLAforElsagate/tree/master/data_preprocessing)
 
 <a name="database"></a>
-# Database
+# Dataset
 
 You can download the data from the [author's Google Drive](https://drive.google.com/open?id=12nWpZDxhQKC3c9N55F-azefqwgFg5PMl).
 
