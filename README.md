@@ -1,3 +1,4 @@
+Code to reproduce the results for the paper ["Combating the Elsagate phenomenon: Deep learning architectures for disturbing cartoons"](https://arxiv.org/pdf/1904.08910.pdf) in 7th IAPR/IEEE International Workshop on Biometrics and Forensics (IWBF).
 
 # Summary
 * [ Database ](#database)
