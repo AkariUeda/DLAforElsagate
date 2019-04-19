@@ -1,7 +1,7 @@
 <a name="preproc"></a>
 # Data Preprocessing
 
-The data preprocessing pipeline was designed and proposed by Perez et al. in the paper [Video pornography detection through deep learning techniques and motion information](https://www.sciencedirect.com/science/article/pii/S0925231216314928). All the scripts used in the Data Preprocessing sections are under the copyright of Mauricio Perez.
+The data preprocessing pipeline was designed and proposed by Perez et al. in the paper [Video pornography detection through deep learning techniques and motion information](https://www.sciencedirect.com/science/article/pii/S0925231216314928). All the scripts used in the Data Preprocessing sections are under the copyright of Perez et al..
 
 <a name="frames"></a>
 ## Extract frames
