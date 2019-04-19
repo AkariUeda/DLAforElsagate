@@ -8,7 +8,7 @@ Code to reproduce the results for the paper ["Combating the Elsagate phenomenon:
 <a name="database"></a>
 # Database
 
-The database can be downloaded from the [author's Google Drive](https://drive.google.com/open?id=12nWpZDxhQKC3c9N55F-azefqwgFg5PMl).
+You can download the data from the [author's Google Drive](https://drive.google.com/open?id=12nWpZDxhQKC3c9N55F-azefqwgFg5PMl).
 
 Note that you need permission to do so. Send an e-mail to `ueda.aka@gmail.com` so we can authorize your e-mail address to access the data.
 
@@ -18,10 +18,7 @@ In this link, you will find two directories with the training and validation set
 * The two folds in the training set used in the experiments.
 
 ### About Data Annotation
-Please note that we did not perform a mannual data annotation. Videos downloaded from official channels (e.g., Disney Channel, Cartoon Network) were considered safe and those downloaded from channels considered Elsagate in the [r/Elsagate subreddit](https://www.reddit.com/r/ElsaGate/comments/6o6baf/what_is_elsagate/) were labeled as Elsagate.
-
-Thus, we are aware that we have some mistakes in the video labeling, mainly in the Elsagate class.  
-
+Please note that we did not perform a manual data annotation. Videos downloaded from official channels (e.g., Disney Channel, Cartoon Network) were considered safe and those downloaded from channels considered Elsagate in the [r/Elsagate subreddit](https://www.reddit.com/r/ElsaGate/comments/6o6baf/what_is_elsagate/) were labeled as Elsagate.
 
 # Methodology Pipeline
 
@@ -29,8 +26,8 @@ Access specific instructions for each step of the pipeline through the links bel
 
 1. [**Data Preprocessing**](https://github.com/AkariUeda/DLAforElsagate/tree/master/data_preprocessing): Extract/Generate low-level data (static and/or motion)
 2. [**Models**](https://github.com/AkariUeda/DLAforElsagate/tree/master/weights): Choose a model to execute a feature extraction or finetuning.
-3. [**Feature Extraction**](https://github.com/AkariUeda/DLAforElsagate/tree/master/feature_extraction):Use a Deep Learning Architecture (DLA) model to extract the features from the low-level data and pool the features into a single global  descriptor of the video.
-4. [**Classification**](https://github.com/AkariUeda/DLAforElsagate/tree/master/classification): Predict the class of the video through frames and motion vectors separatedly using SVM and fusion the frames and motion vectors scores to get a final classification.
+3. [**Feature Extraction**](https://github.com/AkariUeda/DLAforElsagate/tree/master/feature_extraction): Use a Deep Learning Architecture (DLA) model to extract the features from the low-level data and pool the features into a single global descriptor of the video.
+4. [**Classification**](https://github.com/AkariUeda/DLAforElsagate/tree/master/classification): Predict the class of the video through frames and motion vectors individually using SVM and fusion the frames and motion vectors scores to get a final classification.
 
 # Citation
 
