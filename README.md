@@ -13,7 +13,7 @@ You can download the data from the [author's Google Drive](https://drive.google.
 Note that you need permission to do so. Send an e-mail to `ueda.aka@gmail.com` so we can authorize your e-mail address to access the data.
 
 In this link, you will find two directories with the training and validation set, in which you will find:
-* The Elsagate videos downloaded from YouTube:  All videos from the **training set** were cut to have at maximum 3 minutes and 15 seconds (VERIFICAR). For the **validation set**, we used the full videos to validate the filtering method as it would work in production.
+* The Elsagate videos downloaded from YouTube:  All videos from the **training set** were cut to have at maximum 3 minutes and 15 seconds. For the **validation set**, we used the full videos to validate the filtering method as it would work in production.
 * The extracted and processed frames and motion vectors. The preprocessing steps are explained in the next section.
 * The two folds in the training set used in the experiments.
 
