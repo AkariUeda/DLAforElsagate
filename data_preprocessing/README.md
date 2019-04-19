@@ -53,13 +53,12 @@ ___
 
 ### 1. Requeriments:
 
-* FFMPEG (Version used: 2.7.2)
+* FFMPEG (version 2.7.2)
 * `./data_preprocessing/generate_mvs_imgs.py`
 * `./data_preprocessing/extract_mvs`: You can use the already compiled binary or recompile it using the instructions in the next section.
 * `pkg-config` installed or manual definition of enviroment variable `PKG_CONFIG_PATH` pointing to ffmpeg libs.
 ```
 Example:
-
 export PKG_CONFIG_PATH=~/sw/ffmpeg-2.7.2/build/lib/pkgconfig/
 ```
 ### 2. Compilation Instructions
