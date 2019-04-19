@@ -13,13 +13,13 @@ Directories whose name has `"finetuning"` in it have weights trained/generated b
 
 <!-- * `googlenet/googlenet_porn_finetuning`: weights trained by us for elsagate, initialized with the model trained for pornography in natural videos provided by Perez et al.
 
-* `googlenet/googlenet_imagenet_finetuning`: weights trained by us for elsagate, initialized with the model trained for imagenet provided by Szegedy et al. Downloaded from [bvlc googlenet repository](http://dl.caffe.berkeleyvision.org/bvlc_googlenet.caffemodel) -->
+* `googlenet/googlenet_imagenet_finetuning`: weights trained by us for elsagate, initialized with the model trained for ImageNet provided by Szegedy et al. Downloaded from [bvlc googlenet repository](http://dl.caffe.berkeleyvision.org/bvlc_googlenet.caffemodel) -->
 
 ## SqueezeNet
 
-* `squeezenet/transfer_imagenet`: weights and setup files provided by Iandola et al. from DeepScale, available at the [author's github](https://github.com/DeepScale/SqueezeNet).
+* `squeezenet/transfer_imagenet`: weights and setup files provided by Iandola et al. from DeepScale, available at the [author's GitHub](https://github.com/DeepScale/SqueezeNet).
 
-* `squeezenet/finetuning`: weights and setup files of the model finetuned from ImageNet's model for the purposes of our project.
+* `squeezenet/finetuning`: weights and setup files of the model finetuned from ImageNet's model for the purposes of our rese.
 
 ## MobileNetV2
 
