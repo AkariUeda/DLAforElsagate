@@ -10,7 +10,7 @@ The data preprocessing pipeline was designed and proposed by Perez et al. in the
 * Boost
 * `./data_preprocessing/frame_extractor` script.
 
-You can use the compiled binary that can be found in `/build` directory or you can recompile it using the following instructions: 
+You can use the compiled binary that can be found in `/build` directory, or you can recompile it using the following instructions: 
 
 1. Enter the frame_extractor dir
 ```
