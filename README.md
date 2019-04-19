@@ -45,7 +45,7 @@ If this work/repository was useful for your project, please consider citing our 
 Also, our work was largely based on Mauricio Perez work: [Video pornography detection through deep learning techniques and motion information](https://www.sciencedirect.com/science/article/pii/S0925231216314928). We strongly recommend the reading if you are planning on reproducing our experiments.
 
 
-# Acknowledgements
+# Acknowledgments
 
 * A. Ishikawa is funded by PIBIC/CNPq, FAEPEX (\#2555/18) and Movile. 
 * E. Bollis is funded by CAPES. 
