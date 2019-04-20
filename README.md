@@ -11,12 +11,12 @@ Code to reproduce the results for the paper ["Combating the Elsagate phenomenon:
 You can download the data from the [author's Google Drive](https://drive.google.com/open?id=12nWpZDxhQKC3c9N55F-azefqwgFg5PMl).
 It is necessary to sign a license agreement to get access to the data, you can find the agreement [here](https://github.com/AkariUeda/DLAforElsagate/blob/master/eula_recod_elsagate_dataset.pdf). Please sign it and send a copy to Sandra Avila [sandra@ic.unicamp.br](mailto:sandra@ic.unicamp.br).
 
-In this link, you will find two directories with the training and validation set, in which you will find:
+The dataset comes with specified training/validation splits. In the link you find:
 * The Elsagate videos downloaded from YouTube:  All videos from the **training set** were cut to have at maximum 3 minutes and 15 seconds. For the **validation set**, we used the full videos to validate the filtering method as it would work in production.
 * The extracted and processed frames and motion vectors. The preprocessing steps are explained in the next section.
 * The two folds in the training set used in the experiments.
 
-### About Data Annotation
+### Data Annotation
 Please note that we did not perform a manual data annotation. Videos downloaded from official channels (e.g., Disney Channel, Cartoon Network) were considered safe and those downloaded from channels considered Elsagate in the [r/Elsagate subreddit](https://www.reddit.com/r/ElsaGate/comments/6o6baf/what_is_elsagate/) were labeled as Elsagate.
 
 # Methodology Pipeline
