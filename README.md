@@ -9,7 +9,7 @@ Code to reproduce the results for the paper ["Combating the Elsagate phenomenon:
 # Dataset
 
 You can download the data from the [author's Google Drive](https://drive.google.com/open?id=12nWpZDxhQKC3c9N55F-azefqwgFg5PMl).
-It is necessary to sign a license agreement to get access to the data, you can find the license agreement [here](). Please sign it and send a copy to Sandra Avila <sandra [at] ic [dot] unicamp [dot] br>.
+It is necessary to sign a license agreement to get access to the data, you can find the agreement [here](https://github.com/AkariUeda/DLAforElsagate/blob/master/eula_recod_elsagate_dataset.pdf). Please sign it and send a copy to Sandra Avila [sandra@ic.unicamp.br](mailto:sandra@ic.unicamp.br).
 
 In this link, you will find two directories with the training and validation set, in which you will find:
 * The Elsagate videos downloaded from YouTube:  All videos from the **training set** were cut to have at maximum 3 minutes and 15 seconds. For the **validation set**, we used the full videos to validate the filtering method as it would work in production.
