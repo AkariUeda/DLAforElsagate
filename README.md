@@ -35,7 +35,9 @@ If this work/repository was useful for your project, please consider citing our 
 ```
 @inproceedings{ishikawa2019dlaelsagate,
  title={Combating the {Elsagate} Phenomenon: {D}eep Learning Architectures for Disturbing Cartoons},
- author={Akari Ishikawa and Edson Bollis and Sandra Avila},
+ author={Akari Ishikawa and 
+         Edson Bollis and 
+         Sandra Avila},
  booktitle={7th IAPR/IEEE International Workshop on Biometrics and Forensics (IWBF)},
  year={2019}
 }
