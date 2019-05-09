@@ -20,6 +20,6 @@ snapshot: 500
 snapshot_prefix: "train"
 solver_mode: GPU
 random_seed: 144000
-net: "train_val.prototxt" #we typically do `cd SqueezeNet_v1.0; caffe train <args>` 
+net: "squeezenet_train_val.prototxt" #we typically do `cd SqueezeNet_v1.0; caffe train <args>` 
 test_initialization: false
 average_loss: 40
