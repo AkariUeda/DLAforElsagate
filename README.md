@@ -24,9 +24,11 @@ Please note that we did not perform a manual data annotation. Videos downloaded 
 Access specific instructions for each step of the pipeline through the links below:
 
 1. [**Data Preprocessing**](https://github.com/AkariUeda/DLAforElsagate/tree/master/data_preprocessing): Extract/Generate low-level data (static and/or motion)
-2. [**Models**](https://github.com/AkariUeda/DLAforElsagate/tree/master/weights): Choose a model to execute a feature extraction or finetuning.
+2. [**Models**](https://github.com/AkariUeda/DLAforElsagate/tree/master/weights): See our trained models to execute a feature extraction.
 3. [**Feature Extraction**](https://github.com/AkariUeda/DLAforElsagate/tree/master/feature_extraction): Use a Deep Learning Architecture (DLA) model to extract the features from the low-level data and pool the features into a single global descriptor of the video.
 4. [**Classification**](https://github.com/AkariUeda/DLAforElsagate/tree/master/classification): Predict the class of the video through frames and motion vectors individually using SVM and fusion the frames and motion vectors scores to get a final classification.
+5. [**Finetuning**](https://github.com/AkariUeda/DLAforElsagate/tree/master/finetuning): Use our scripts to finetune one of our neural networks for your data.
+
 
 # Citation
 

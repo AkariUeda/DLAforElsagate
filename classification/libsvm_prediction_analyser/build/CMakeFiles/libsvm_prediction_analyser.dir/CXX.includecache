@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/akari/project/src/libsvm_prediction_analyser/libsvm_prediction_analyser.cpp
+math.h
+-
+algorithm
+-
+string
+-
+set
+-
+vector
+-
+fstream
+-
+sstream
+-
+iostream
+-
+
