@@ -49,7 +49,7 @@ frames_next.list
 ```
 ___
 <a name="motions"></a>
-## Extract Motion Vectors
+## Motion Vectors
 
 ### 1. Requeriments:
 
@@ -70,7 +70,7 @@ cd extract_mvs
 ```
 make
 ```
-### 3. Extracting
+### 3. Extracting the motion vectors
 
 The extract_mvs tool need a list, for each movie, containing the frame numbers which it will extract the MPEG Motion Vectors.
 
@@ -91,4 +91,14 @@ Where:
 * porn_mvs directory: to store the extracted mvs
 * process_porn/porn: path where to find the videos
 
+### 4. Generate images from your motion vectors
 
+```
+generate_mvs_imgs.py -m mvs_dir/ -l lists/movies_name.list -o motions/ -os 224
+```
+
+Where:
+* `mvs_dir` is the directory where you saved the mvs generated in the previous step
+* movies_name.list is the name of the videos, without the full path.
+* `motions` is the desired output directory where the script is going to save the motion vector images
+* `224` is the dimension of the generated image. If you set it as 224, the images will be 224x224.
