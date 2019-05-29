@@ -70,4 +70,25 @@ cd extract_mvs
 ```
 make
 ```
+### 3. Extracting
+
+The extract_mvs tool need a list, for each movie, containing the frame numbers which it will extract the MPEG Motion Vectors.
+
+Note: Since I-frames doesn't contain motion vectors, if one of the selected frames in the list is an I-frame, the motion vector from the next frame will be extracted instead.
+
+This list can be generated from the list of 1fps current/previous frames. The `extract_motion_vectors.sh` script automatically creates this list for each video and extract the desired mvs'.
+
+Run the line below replacing the necessary parameters:
+```
+./extract_motion_vectors.sh process_porn/porn_videos_list process_porn/porn_frames_previous porn_motion_vectors porn_mvs process_porn/porn
+```
+
+Where:
+
+* porn_videos_list: list with your video absolute names (without path)
+* porn_frames_previous: the previous frames list, generated during the frame extraction step
+* porn_motion_vectors: directory to store auxiliary files
+* porn_mvs directory: to store the extracted mvs
+* process_porn/porn: path where to find the videos
+
 
