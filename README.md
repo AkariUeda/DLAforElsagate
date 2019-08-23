@@ -1,11 +1,9 @@
-Code to reproduce the results for the paper ["Combating the Elsagate phenomenon: Deep learning architectures for disturbing cartoons"](https://arxiv.org/pdf/1904.08910.pdf) in 7th IAPR/IEEE International Workshop on Biometrics and Forensics (IWBF).
 
-# Summary
-* [ Database ](#database)
-* [ Methodology Pipeline ](#reqs)
-* [ Data Preprocessing ](https://github.com/AkariUeda/DLAforElsagate/tree/master/data_preprocessing)
+# Welcome!
 
-<a name="database"></a>
+Here you will find code to reproduce the results for the paper ["Combating the Elsagate phenomenon: Deep learning architectures for disturbing cartoons"](https://arxiv.org/pdf/1904.08910.pdf) in 7th IAPR/IEEE International Workshop on Biometrics and Forensics (IWBF).
+
+
 # Dataset
 
 You can download the data from the [author's Google Drive](https://drive.google.com/open?id=12nWpZDxhQKC3c9N55F-azefqwgFg5PMl).

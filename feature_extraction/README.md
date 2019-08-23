@@ -7,7 +7,7 @@ For experiments with [GoogLeNet](https://arxiv.org/abs/1409.4842) and SqueezeNet
 
 For users not familiar with Caffe, we provide a tool for feature extraction: extract_features.py. This tool extract the features directly from the image files, and store the features in separate files for each image contained in the input list. Example of usage: 
 ```
-src/extract_features.py -i extracted_frames/ -l frames.list -o descriptions_dir/ -p caffe/deploy.prototxt -m caffe/model.caffemodel -ms 100 -a caffe/img_mean.binaryproto -ol layer_name -is 224x224 -g -gi 0
+extract_features.py -i extracted_frames/ -l frames.list -o descriptions_dir/ -p caffe/deploy.prototxt -m caffe/model.caffemodel -ms 100 -a caffe/img_mean.binaryproto -ol layer_name -is 224x224 -g -gi 0
 
 -i    Directory with the frames
 -l    The list of frames
@@ -52,7 +52,18 @@ This script received 3 input parameters:
 2. Data directory: Path to the directory with the input data.
 3. Batch size
 
+# Pooling features
 
+After feature extraction, it's necessary to pool all the features from the same video into a global description, which will be later used by the SVM for the final classification. For that, it was used the pooler.py tool:
+```
+pooler.py -d descriptions/ -l frames.list -o pooled/ -p avg
+```
+
+Use option `-m` for pooling motion features. This option already concatenates the horizontal (dx) and vertical (dy) descriptions of the motion.
+Beside pooling the features, pooler.py also output the features in the format expected by LIBSVM. For that. it takes into consideration the name of the file to determine if it's safe (begins with "safe") or Elsagate (begins with something different than "safe"):
+```
+1 1:0.00008904 2:0.00289221 3:0.06509972 4:0.00028156 5:0.40549973 ...
+```
 
 
 

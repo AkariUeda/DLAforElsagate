@@ -40,7 +40,7 @@ frame_extractor -t 12 -f 1 -p 100000 -i movies.list -o extracted_frames; * movie
 ### 3. Split Previous and Next Lists
 It's necessary to separate which frames are the selected frames sampling to be used and which are the next frames, only used for generating the Optical Flow representation. This can be done using `split_list_previous_next.bash` tool:
 ```
-src/split_list_previous_next.bash frames.list .
+split_list_previous_next.bash frames.list .
 ```
 Expected output:
 ```
