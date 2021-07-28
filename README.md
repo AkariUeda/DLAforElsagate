@@ -6,7 +6,6 @@ Here you will find code to reproduce the results for the paper ["Combating the E
 
 # Dataset
 
-You can download the data from the [author's Google Drive](https://drive.google.com/open?id=12nWpZDxhQKC3c9N55F-azefqwgFg5PMl).
 It is necessary to sign a license agreement to get access to the data, you can find the agreement [here](https://github.com/AkariUeda/DLAforElsagate/blob/master/eula_recod_elsagate_dataset.pdf). Please sign it and send a copy to Sandra Avila [sandra@ic.unicamp.br](mailto:sandra@ic.unicamp.br).
 
 The dataset comes with specified training/validation splits. In the link you find:
